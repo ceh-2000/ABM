@@ -2,4 +2,4 @@
 
 ### Clare Heinbaugh
 
-This is my Github website for class.
+1. [Assignment 1: Getting Started with R & R Studio](GettingStartedwithR&RStudio.md)
