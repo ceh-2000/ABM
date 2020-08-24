@@ -4,7 +4,8 @@
 
 ## Path of the Running Boy
 First, I created a path of the running boy by plotting x against y with a negative slope as seen below. 
-`
+
+```
 x <- 1:10
 y <- 10:1
 plot(x, y, type = "b", main = "The Path of a Running Boy", 
@@ -16,13 +17,14 @@ plot(x, y, type = "b", main = "The Path of a Running Boy",
      col = "blue",
      pch = 0,
      cex = 1)
-`
+```
+
 ![Path of the Running Boy](ThePathOfTheRunningBoy.png)
 
 ## A Traveling Salesperson
 Next I learned about random samply in R and plotted 10 dwellings, 10 small trees, 10 large trees, and created a labeled path between three houses using a dashed spline.
 
-`
+```
 # Initialize x & y
 x <- 1:100
 y <- 1:100
@@ -81,7 +83,7 @@ xspline(x = dwellings[locs, 2], # Easterly coordinate
 
 # Add a title to the plot
 title(main="A Traveling Salesperson")
-`
+```
 
 ![A Traveling Salesperson (Original)](ATravelingSalespersonOriginal.png)
 
