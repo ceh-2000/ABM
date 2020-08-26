@@ -4,4 +4,4 @@
 
 ## Swaziland Details
 
-(Swaziland)[details.png]
+![Swaziland](details.png)
