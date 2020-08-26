@@ -2,10 +2,15 @@
 
 ### Date: 8/26/2020
 
-## Populations of first administrative boundaries
+## Assignment
+For this plot I found the population of the the first administrative subdivisions and colored them accordingly. Yellow corresponds to low population and red corresponds to high populatio
 ![Swaziland Population](images/swz_pop20.png)
 
-## Populations of second administrative boundaries
+## Individual Stretch Goal 1
+For this plot I found the population of the the second administrative subdivisions and colored them accordingly.
 ![Swaziland Population](images/swz_pop20_adm2.png)
+
+## Individual Stretch Goal 2
+
 
 [Here](scripts/spatialDataPracticeSwaziland.R) is the code.
