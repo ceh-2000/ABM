@@ -3,13 +3,13 @@
 ### Date: 8/26/2020
 
 ## Swaziland
-![Swaziland](swaziland.png)
+![Swaziland](images/swaziland.png)
 
 ## Hhohho
-![Hhohho](hhohho.png)
+![Hhohho](images/hhohho.png)
 
 ## Swaziland Details
 
-![Swaziland Details](details.png)
+![Swaziland Details](images/details.png)
 
 [Here](scripts/spatialDataPracticeSwaziland.R) is the code.
