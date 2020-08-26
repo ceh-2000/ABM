@@ -1,4 +1,4 @@
-# Getting Started with R & RStudio: Part 2
+# Creating Plots of Swaziland
 
 ### Date: 8/26/2020
 
