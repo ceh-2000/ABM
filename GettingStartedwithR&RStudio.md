@@ -19,7 +19,7 @@ plot(x, y, type = "b", main = "The Path of a Running Boy",
      cex = 1)
 ```
 
-![Path of the Running Boy](ThePathOfTheRunningBoy.png)
+![Path of the Running Boy](images/ThePathOfTheRunningBoy.png)
 
 ## A Traveling Salesperson
 Next I learned about random samply in R and plotted 10 dwellings, 10 small trees, 10 large trees, and created a labeled path between three houses using a dashed spline.
@@ -85,7 +85,7 @@ xspline(x = dwellings[locs, 2], # Easterly coordinate
 title(main="A Traveling Salesperson")
 ```
 
-![A Traveling Salesperson (Original)](ATravelingSalespersonOriginal.png)
+![A Traveling Salesperson (Original)](images/ATravelingSalespersonOriginal.png)
 
 ## A Traveling Salesperson (Challenge Problem)
 
@@ -142,6 +142,6 @@ xspline(x = dwellings[locs, 2], # Easterly coordinate
 title(main="A Traveling Salesperson")
 ```
 
-![A Traveling Salesperson (Challenge)](ATravelingSalespersonChallenge.png)
+![A Traveling Salesperson (Challenge)](images/ATravelingSalespersonChallenge.png)
 
 [Link](GettingStartedWithR.R) to complete, downloadable code.
