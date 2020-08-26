@@ -5,6 +5,7 @@
 ## Populations of first administrative boundaries
 ![Swaziland Population](images/swz_pop20.png)
 
-
+## Populations of second administrative boundaries
+![Swaziland Population](images/swz_pop20_adm2.png)
 
 [Here](scripts/spatialDataPracticeSwaziland.R) is the code.
