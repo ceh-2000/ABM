@@ -3,9 +3,11 @@
 ### Date: 8/26/2020
 
 ## Swaziland
+![Swaziland](swaziland.png)
 
 ## Hhohho
+![Hhohho](hhohho.png)
 
 ## Swaziland Details
 
-![Swaziland](details.png)
+![Swaziland Details](details.png)
