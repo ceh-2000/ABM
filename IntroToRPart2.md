@@ -11,3 +11,5 @@
 ## Swaziland Details
 
 ![Swaziland Details](details.png)
+
+[Here](scripts/spatialDataPracticeSwaziland.R) is the code.
