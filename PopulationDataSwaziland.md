@@ -11,6 +11,7 @@ For this plot I found the population of the the second administrative subdivisio
 ![Swaziland Population](images/swz_pop20_adm2.png)
 
 ## Individual Stretch Goal 2
-
+Here I recolored the map to make it more distinct and apply skills learned in the previous assignment related to setting alpha values. 
+![Swaziland Population Recolored](images/swz_pop20_recolored.png)
 
 [Here](scripts/spatialDataPracticeSwaziland.R) is the code.
