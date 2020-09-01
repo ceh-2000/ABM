@@ -1,2 +1,2 @@
 
-[Density image](swazilandWithDensity.png)
+![Density image](swazilandWithDensity.png)
