@@ -1,1 +1,2 @@
 
+[Density image](swazilandWithDensity.png)
