@@ -14,4 +14,4 @@ For this plot I found the population of the the second administrative subdivisio
 Here I recolored the map to make it more distinct and apply skills learned in the previous assignment related to setting alpha values and adding boundary lines of various thicknesses. 
 ![Swaziland Population Recolored](images/swz_pop20_recolored.png)
 
-[Here](scripts/spatialDataPracticeSwaziland.R) is the code.
+[Here](scripts/swazilandPop.R) is the code.
