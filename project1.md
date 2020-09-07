@@ -1,6 +1,6 @@
 # Population Data for Swaziland
 
-### Date: 8/26/2020
+### Date: 9/7/2020
 
 ## Assignment
 First, I zoom in on an adm2, specifically Pigg's Peak, by cropping and masking the image.
@@ -36,16 +36,16 @@ Next, I plot these polygons over the original density image.
 
 Filter out outer polygons that have neglible populations.
 ![Pigg's Peak Image](images/subpolys_filtered.png)
-Repeat with inner polygons with negligible populations. 
+Repeat and remove inner polygons with negligible populations. 
 
 ```
 uas <- st_union(inside_polys_filtered, subpolys_filtered)
 urban_areas <- st_cast(uas, "POLYGON")
 ``` 
-Then, we want to join the inner-filtered and outer-filtered polygons to create a group of polygons corresponding to urban areas.
+Then, I want to join the inner-filtered and outer-filtered polygons to create a group of polygons corresponding to urban areas.
 ![Pigg's Peak Image](images/urban_areas.png)
 
-Finally, we recolor our de factor urban area settlements based on population size and list the density for each settlement.
+Finally, I recolor our de factor urban area settlements based on population size and list the density for each settlement.
 ![Pigg's Peak Image](images/urban_areas_plot.png)
 
 [Here](scripts/DefactoDescriptionSwaziland.R) is the code.
