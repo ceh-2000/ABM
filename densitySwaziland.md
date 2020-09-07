@@ -17,4 +17,4 @@ In this plot I repeated the original assignment but only looked at one region in
 
 ![Hhohho population and bar plot](images/hhohhoWithDensity.png)
 
-[Here](barGraph.R) is the code.
+[Here](scripts/barGraph.R) is the code.
