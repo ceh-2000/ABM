@@ -31,13 +31,13 @@ my_outer_polys <- st_buffer(outside_lines, 0.0014) %>%
   st_cast(., "POLYGON")
  ```
  
-Now, we see that the polygons mostly close. There are some issues that can't be mitigating by increasing buffer or reducing the density threshold as we can see my the lines in the middle of the figure that never intersect the border.
+Now, we see that the polygons mostly close. There are some issues that can't be mitigated by increasing the buffer or reducing the density threshold. For example, some of my the lines in the middle of the figure never intersect the border.
 ![Pigg's Peak Image](images/pigg_outer_polygons_intersecting.png)
 
-Next, I plot these polygons over the original density image.
+Next, I plot these polygons over the original density image
 ![Pigg's Peak Image](images/subpolys.png)
 
-Filter out outer polygons that have neglible populations.
+and filter out outer polygons that have neglible populations.
 ![Pigg's Peak Image](images/subpolys_filtered.png)
 Repeat and remove inner polygons with negligible populations. 
 
@@ -45,10 +45,10 @@ Repeat and remove inner polygons with negligible populations.
 uas <- st_union(inside_polys_filtered, subpolys_filtered)
 urban_areas <- st_cast(uas, "POLYGON")
 ``` 
-Then, I want to join the inner-filtered and outer-filtered polygons to create a group of polygons corresponding to urban areas.
+Then, I join the inner-filtered and outer-filtered polygons to create a group of polygons corresponding to urban areas.
 ![Pigg's Peak Image](images/urban_areas.png)
 
-Finally, I recolor our de factor urban area settlements based on population size and list the density for each settlement.
+Finally, I recolor the de factor urban area settlements based on population size and list the density for each settlement.
 ![Pigg's Peak Image](images/urban_areas_plot.png)
 
 [Here](scripts/DefactoDescriptionSwaziland.R) is the code.
