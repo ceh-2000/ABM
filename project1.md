@@ -23,7 +23,7 @@ Now we look at the inner polygons
 and the outer "polygons."
 ![Pigg's Peak Image](images/pigg_outer_polygons.png)
 
-These outer polygons are not closed because we need to intersect them with the Pigg's Peak's border. 
+These outer polygons are not closed because we need to intersect them with Pigg's Peak's border. 
 
 ```
 my_outer_polys <- st_buffer(outside_lines, 0.0014) %>%
