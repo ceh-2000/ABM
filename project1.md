@@ -7,6 +7,7 @@ First, I zoom in on an adm2, specifically Pigg's Peak, by cropping and masking t
 ![Pigg's Peak Image](images/agg_pigg.png)
 
 Then, I use the spatial probablity distribution to find places to put people.
+
 `pigg_adm2_ppp <- rpoint(pop, f = as.im(swz_pop20_adm2), win = win)`
 
 `as.im` converts raster data to a pixel image and then distributes random points according.
