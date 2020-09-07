@@ -16,3 +16,5 @@ In this plot I created a bar plot showing the proportion of each secondary subdi
 In this plot I repeated the original assignment but only looked at one region in Swaziland: Hhohho.
 
 ![Hhohho population and bar plot](images/hhohhoWithDensity.png)
+
+[Here](barGraph.R) is the code.
