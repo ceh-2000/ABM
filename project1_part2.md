@@ -37,7 +37,7 @@ roads_3 <- adm2_roads %>%
 Here is the plot of roadways in Pigg's Peak.
 ![Roads](images/roads.png)
 
-Notice the de factor boundaries defining settlements are highlights.
+Notice the de facto boundaries defining settlements are highlighted.
 
 ### Health Care
 Next, we want to plot health care facilities in Pigg's Peak. The open source data can be found [here](https://data.humdata.org/dataset/hotosm_swz_health_facilities). Again, we crop to the bounds of our adm2. 
@@ -50,8 +50,13 @@ In the console, we want to see what healthcare options are in the bounds of our 
 hospital <- adm2_health %>%
   filter(healthcare %in% c("hospital"))
 ```
-Now we can plot our two hospitals with our road data.
+Now we can plot our two hospitals with our road data. 
 ![Health](images/health.png)
+Again, as in part 1 of the project, we fill the de facto settlements based on population. 
+Right away, we notice that the two hospitals are right next to each other in the most populus and largest settlement in Pigg's Peak. These hospitals are likely affiliated. Looking up Piggs Peak hospitals, we find one government hospital [here](https://www.hospitalby.com/swaziland-hospital/p-i014233/). The other hospital appears to be a [Red Cross outpost](https://maps.me/catalog/health/amenity-hospital/swaziland-red-cross-4611686018487037234/).
+
+
+
 
 
 
