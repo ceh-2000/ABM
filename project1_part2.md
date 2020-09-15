@@ -2,6 +2,9 @@
 
 ### Date: 9/13/2020
 
+[Go to Part 1.b.](project1.md)  
+[Go to Part 3](project1_part3.md)
+
 ## Assignment
 Now we are interested in looking at accessibility of roads and healthcare.
 
