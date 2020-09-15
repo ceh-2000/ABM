@@ -1,4 +1,8 @@
 # Part 3: Adding topography
+
+Go to Part 2
+Go to Summary
+
 ### Date: 9/14/2020
 
 ## Assignment
