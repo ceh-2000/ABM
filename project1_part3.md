@@ -1,7 +1,7 @@
 # Part 3: Adding topography
 
-Go to Part 2
-Go to Summary
+[Go to Part 2](project1_part2.md)  
+[Go to Summary](project1summary.md)
 
 ### Date: 9/14/2020
 
