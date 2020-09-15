@@ -2,7 +2,7 @@
 
 ### Date: 8/31/2020
 
-[Go to summary](project1summary.md)
+[Go to Summary](project1summary.md)  
 [Go to Part 1.b.](project1.md)  
 
 ## Assignment
