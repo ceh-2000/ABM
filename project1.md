@@ -1,4 +1,4 @@
-# Part 1.b:Creating De Facto Settlements in Pigg's Peak
+# Part 1.b: Creating De Facto Settlements in Pigg's Peak
 
 ### Date: 9/7/2020
 
@@ -55,4 +55,7 @@ Finally, I recolor the de factor urban area settlements based on population size
 ![Pigg's Peak Image](images/urban_areas_plot.png)
 
 [Here](scripts/DefactoDescriptionSwaziland.R) is the code.
+
+[Go to Part 1.a.](densitySwaziland.md)  
+[Go to Part 2](project1_part2.md)
 
