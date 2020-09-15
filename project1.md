@@ -2,7 +2,7 @@
 
 ### Date: 9/7/2020
 
-[Go to Part 1.a.](densitySwaziland.md.md)  
+[Go to Part 1.a.](densitySwaziland.md)  
 [Go to Part 2](project1_part2.md)
 
 ## Assignment
