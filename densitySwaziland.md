@@ -2,6 +2,9 @@
 
 ### Date: 8/31/2020
 
+[Go to summary](project1summary.md)
+[Go to Part 1.b.](project1.md)  
+
 ## Assignment
 For this plot I created a bar plot of the population of each first level subdivision as a part of the overall population and added the population density under each subdivision 1 title on the map. 
 
