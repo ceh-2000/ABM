@@ -7,7 +7,7 @@ In order to understand why people choose to settle where they do, it is helpful 
 First, I collected data from WorldPop [here](ftp://ftp.worldpop.org.uk/GIS/Covariates/Global_2000_2020/SWZ/Topo/) for Eswitini. Then, I cropped the topography raster data to Pigg's Peak's bounds, and converted the raster to a matrix, whose dimensions were 399x275. Here is the 2D plot of the matrix.
 ![2D plot](images/2Dplot.png)
 
-To overlay the roads, healthcare facilities, and de facto settlements, I created a new plot with `ggplot()` at the end of Part 2 that contains accessibility data. Here is the plot:
+To overlay the roads, healthcare facilities, and de facto settlements, I created a new plot with `ggplot()` at the end of Part 2 that contains accessibility data. Here is the plot:    
 ![Layer](images/combined.png)
 
 Finally, I generated this 3D-rendering of Pigg's Peak in Eswitini with settlement, road, and healthcare information.    
