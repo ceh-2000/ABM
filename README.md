@@ -8,3 +8,5 @@
 4. [Assignment 4: Population density and bar plot](densitySwaziland.md)
 5. [Project 1 (part 1): Creating De Facto Settlements for Pigg's Peak](project1.md)
 6. [Project 1 (part 2): Adding transportation facilities & health care services](project1_part2.md)
+7. [Project 1 (part 3): Topography](project1_part3.md)
+
