@@ -17,5 +17,7 @@ To overlay the roads, healthcare facilities, and de facto settlements, I created
 Finally, I generated this 3D-rendering of Pigg's Peak in Eswitini with settlement, road, and healthcare information.    
 ![3D plot](images/3Dplot.png)
 
+[Here](scripts/TopographyInformation.R) is the code.
+
 [Go to Part 2](project1_part2.md)  
 [Go to Summary](project1summary.md)
