@@ -1,9 +1,9 @@
 # Part 3: Adding topography
 
+### Date: 9/14/2020
+
 [Go to Part 2](project1_part2.md)  
 [Go to Summary](project1summary.md)
-
-### Date: 9/14/2020
 
 ## Assignment
 In order to understand why people choose to settle where they do, it is helpful to look at the topography of the land. People need access to water and few people want to live on the side of a mountain, so defining the characteristics of the land is helpful to understand the nature of the de facto settlements.
