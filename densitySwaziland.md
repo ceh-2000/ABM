@@ -21,3 +21,6 @@ In this plot I repeated the original assignment but only looked at one region in
 ![Hhohho population and bar plot](images/hhohhoWithDensity.png)
 
 [Here](scripts/barGraph.R) is the code.
+
+[Go to Summary](project1summary.md)  
+[Go to Part 1.b.](project1.md)  
