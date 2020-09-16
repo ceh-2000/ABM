@@ -14,7 +14,7 @@ First, I collected data from WorldPop [here](ftp://ftp.worldpop.org.uk/GIS/Covar
 To overlay the roads, healthcare facilities, and de facto settlements, I created a new plot with `ggplot()` at the end of Part 2 that contains accessibility data. Here is the plot:    
 ![Layer](images/combined.png)
 
-Finally, I generated this 3D-rendering of Pigg's Peak in Eswitini with settlement, road, and healthcare information.    
+Finally, I generated this 3D-rendering of Pigg's Peak in Eswitini with settlement, road, and healthcare information. Note that this plot is rotated from the 2D topography plot to emphasize various topographic features.     
 ![3D plot](images/3Dplot.png)
 
 [Here](scripts/TopographyInformation.R) is the code.
