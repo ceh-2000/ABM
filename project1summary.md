@@ -3,7 +3,7 @@
 For this first project I was looking at population, population density, accessibility, and topography in different subdivisions of Eswatini.
 
 ## [Part 1.a.](densitySwaziland.md)  
-For the part a of the first part, I recolored a map of Eswatini's first level subdivisions based on population and noted the density of each subdivision on the plot. Later, I decided to focus on Hhohho, oe of Eswatini's subdivision. I chose it because it included the capital city and had varying populations and densities in each of its second level subdivisions, so I thought it would be interesting to investigate these differences further.
+For part a of the first part, I recolored a map of Eswatini's first level subdivisions based on population and noted the density of each subdivision on the plot. Later, I decided to focus on Hhohho, one of Eswatini's subdivisions. I chose it because it included the capital city and had varying populations and densities in each of its second level subdivisions, so I thought it would be interesting to investigate these differences further.
 
 ## [Part 1.b.](project1.md) 
 In part b, I first tried to generate de factor settlements for Hhhohho. However, the calculations were computationally expensive and finding the bandwidth argument took over an hour. Therefore, I decided to Pigg's Peak, a secodnary subdivision in Hhohho that we can see from part a as a medium-to-smaller population and smaller density compared to other second-level subdivisions in Hhohho. 
@@ -12,5 +12,7 @@ I generated de facto settlements by randomly distributing the population accordi
 
 Finally, I compared the settlement population and rank to see if they conformed to Zipf's law. In general, the power law trend was present, even though my populations dropped off faster than what Zipf's law predicted.  
 
-## [Part 2](project1_part2.md)  
+## [Part 2](project1_part2.md) 
+Next, I was interested in looking at accessibility as determined by roads and healthcare. 
+
 ## [Part 3](project1_part3.md)  
