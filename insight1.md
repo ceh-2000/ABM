@@ -26,9 +26,9 @@ When we add a pre-trained model, we have to follow these steps to conform the mo
 
 1. Remove the classifier and add your own.
 2. Conform the model to your specific needs via freezing choices. How much we freeze depends on the similarity of our task to the pretrained model and the size of our dataset:
- - If your new dataset is very different from the data set the pre-trained model was trained on, freeze nothing. We need lots of data to generate new weights, though.
+ - If your new dataset is very different from the dataset the pre-trained model was trained on, freeze nothing. We need lots of data to generate new weights, though.
  - If your dataset is similar, freeze some layers (i.e. don’t allow these weights to be adjusted) and unfreeze others.
- - If your dataset is small or the pre-trained model solves a very similar problem to your freeze all the layers.
+ - If your dataset is small or the pre-trained model solves a very similar problem to yours, freeze all of the layers.
 
 ![Freezing](images/frozen_levels.png)
 
@@ -37,7 +37,7 @@ But what is freezing? A CNN is made up on many layers with many attached weights
 
 When deciding which layers to freeze, data scientists choose to freeze "lower" levels (closer to the input), because these layers are more general. In contrast, the "higher" levels are closer to the classification step, so we would be more likely to leave them unfrozen.
 
-Just to be clear about definitions, a small dataset is one that typically has less than 1000 images per class. 
+Just to be clear about definitions, a small dataset is one that typically has less than 1000 images per class (i.e. <1000 dog images and <1000 cat images). 
 
 ## Code
 Here is an R implementation of the pretrained model `VGG16` that I think sums up the variables we can choose well:
