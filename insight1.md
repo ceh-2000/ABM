@@ -78,7 +78,7 @@ for layer in VGG.layers:
   print(layer.name, sp, layer.trainable)
 ```
 And here is the output:   
-<img src="images/frozen_output.png" alt="Frozen Layers" width="100" >
+<img src="images/frozen_output.png" alt="Frozen Layers" width="200" >
 
 ## Purpose
 Why care about image classification in human development? 
