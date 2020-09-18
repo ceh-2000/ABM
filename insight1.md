@@ -21,7 +21,7 @@ Transfer learning allows data scientists to build better deep learning models fa
 
 ## Transfer Learning
 
-#### Process Overview
+### Process Overview
 When we add a pre-trained model, we have to follow these steps to conform the model to our dataset.
 
 1. Remove the classifier and add your own.
