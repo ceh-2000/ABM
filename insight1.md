@@ -10,7 +10,10 @@ Transfer learning allows data scientists to build better deep learning models fa
 - Neural Network: Algorithms to find relationships in data similar to how the human brain digests data.
 - Convolution Neural Network (CNN): deep learning models used for image detection and classification; belong to the field of computer vision.
 - Keras: Python neural-network library.
-- Pre-trained model: A neural network model that was already trained (and accurate) for a problem similar to the one we want to solve.
+- Pre-trained model: A neural network model that was already trained (and accurate) for a problem similar to the one we want to solve. A complete list of Keras pre-trained models can be found [here](https://keras.io/api/applications/). Here is an excerpt of examples:
+  - ResNet50
+  - VGG16
+  - MobileNet
 - Transfer Learning: Using pretrained models to classify images faster and better.
 
 ## Purpose
