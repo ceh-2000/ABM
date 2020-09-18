@@ -37,6 +37,46 @@ When deciding which layers to freeze, data scientisits choose to freeze "lower" 
 Just to be clear about definitions, a small dataset is one that typically has less than 1000 images per class. 
 
 ## Code
+Here is an R implementation of the pretrained model `VGG16` that I think sums up the variables we can choose well:
+```
+tf.keras.applications.VGG16(
+    include_top=True,
+    weights="imagenet",
+    input_tensor=None,
+    input_shape=None,
+    pooling=None,
+    classes=1000,
+    classifier_activation="softmax",
+)
+```
+
+And from this [source](https://keras.io/api/applications/vgg/#vgg16-function) we get definitions of each argument.
+```
+Arguments
+
+include_top: whether to include the 3 fully-connected layers at the top of the network.
+weights: one of None (random initialization), 'imagenet' (pre-training on ImageNet), or the path to the weights file to be loaded.
+input_tensor: optional Keras tensor (i.e. output of layers.Input()) to use as image input for the model.
+input_shape: optional shape tuple, only to be specified if include_top is False (otherwise the input shape has to be (224, 224, 3) (with channels_last data format) or (3, 224, 224) (with channels_first data format). It should have exactly 3 input channels, and width and height should be no smaller than 32. E.g. (200, 200, 3) would be one valid value.
+pooling: Optional pooling mode for feature extraction when include_top is False. - None means that the output of the model will be the 4D tensor output of the last convolutional block. - avg means that global average pooling will be applied to the output of the last convolutional block, and thus the output of the model will be a 2D tensor. - max means that global max pooling will be applied.
+classes: optional number of classes to classify images into, only to be specified if include_top is True, and if no weights argument is specified.
+classifier_activation: A str or callable. The activation function to use on the "top" layer. Ignored unless include_top=True. Set classifier_activation=None to return the logits of the "top" layer.
+```
+
+Finally, here is a Python implementation where we freeze the top 10 layers of a model implementing a VGG16 pre-trained model:
+```
+VGG = VGG16(include_top=False, input_shape=(244,244,3))
+
+for layer in VGG.layers[:10]: # freezing top 10 layers
+  layer.trainable = False
+ 
+for layer in VGG.layers:
+  sp = '     '[len(layer.name)-9]
+  print(layer.name, sp, layer.trainable)
+```
+And here is the output:
+
+
 
 ## Purpose
 Why care about image classification in human development? 
