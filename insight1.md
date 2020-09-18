@@ -77,7 +77,7 @@ for layer in VGG.layers:
   sp = '     '[len(layer.name)-9]
   print(layer.name, sp, layer.trainable)
 ```
-And here is the output:
+And here is the output:   
 ![Frozen Layers](images/Screen Shot 2020-09-18 at 12.08.41 PM.png)
 
 ## Purpose
