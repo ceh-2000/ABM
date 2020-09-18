@@ -78,7 +78,7 @@ for layer in VGG.layers:
   print(layer.name, sp, layer.trainable)
 ```
 And here is the output:   
-![Frozen Layers](images/Screen Shot 2020-09-18 at 12.08.41 PM.png)
+![Frozen Layers](images/frozen_output.png)
 
 ## Purpose
 Why care about image classification in human development? 
