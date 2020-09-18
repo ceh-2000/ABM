@@ -81,13 +81,13 @@ And here is the output:
 <img src="images/frozen_output.png" alt="Frozen Layers" width="200" >
 
 ## Purpose
-Why care about image classification in human development? 
+Why care about image classification and transfer learning in human development? 
 
 #### Road Quality
-One application is already being investigated on campus in the geoLab regarding road quality. Thanks to the prevalence of satellite images, it is easier than ever to visualize roads in low middle-income countries (LMIC). Pairing this data with vibration data from an Android phone app, we are able to train a model that can predict road quality. The satellite data is often open source, and most people have phones, so this is a relatively inexpensive method to assess road quality.
+One application is already being investigated at William & Mary in the geoLab regarding road quality. Thanks to the prevalence of satellite images, it is easier than ever to visualize roads in low middle-income countries (LMIC). Pairing this data with vibration data from an Android phone app, we are able to train a model that can predict road quality. In order to improve the current models, transfer learning can be employed. The satellite data is often open source, and most people have phones, so this is a relatively inexpensive method to assess road quality. 
 
 #### Tracking Human Development in India
-In LMICs, accurate settlement and household data is uncommon mostly because it is expensive and requires a concerted government effort. Thus, data scientists want to build models that can circumvent these issues and generate more accurate settlement data. In an article in the Medium, Adhya Dagar describes just this. In Dagar's example, researchers used a convolutional neural network and transfer learning in order to predict socioeconomic levels of different settlements (i.e. villages) by taking into account different indicators:
+In LMICs, accurate settlement and household data is uncommon mostly because it is expensive and requires a concerted government effort. Thus, data scientists want to build models that can circumvent these issues and generate more accurate settlement data. In an article in the [Medium](https://towardsdatascience.com/an-approach-to-tracking-human-development-through-satellite-imagery-in-india-7e750b85dc90), Adhya Dagar describes just this. In Dagar's example, researchers used a convolutional neural network and transfer learning in order to predict socioeconomic levels of different settlements (i.e. villages) by taking into account different indicators:
 - Assets
 - Bathroom facilities
 - Condition of households
