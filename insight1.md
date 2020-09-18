@@ -17,6 +17,8 @@ Transfer learning allows data scientists to build better deep learning models fa
   - MobileNet
 - Transfer Learning: Using pretrained models to classify images faster and better.
 
+![Neural Network](images/neural_network_image.png)
+
 ## Transfer Learning
 
 #### Process Overview
