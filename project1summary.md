@@ -18,4 +18,4 @@ Next, I was interested in looking at accessibility as determined by roads and he
 After examining road data, I turned my attention to healthcare data. There are two hospitals right next to each other in the center of the largest de facto settlement. This makes sense that the hospitals would be placed to reach the most people. What I do not understand is why there are two right next to each other. I predict that these two hospitals are affiliated hence their proximity.  
 
 ## [Part 3](project1_part3.md)  
-In the last part of the project, I added in topographic data. 
+In the last part of the project, I added in topographic data. In higher gradient regions of Pigg's Peak, there were fewer or no de facto settlements. As expected, people are unlikely to live on steep inclines. When we combine this topographic information with accessibility data and de facto settlements, we generate a pretty descriptive view of Eswatini's Pigg's Peak.
