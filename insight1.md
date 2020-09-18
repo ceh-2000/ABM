@@ -96,4 +96,6 @@ In LMICs, accurate settlement and household data is uncommon mostly because it i
 - Main source of water
 - Literacy
 
+![India CNN](images/india_from_space_2012.jpeg)
+
 ## References
