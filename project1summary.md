@@ -13,6 +13,9 @@ I generated de facto settlements by randomly distributing the population accordi
 Finally, I compared the settlement population and rank to see if they conformed to Zipf's law. In general, the power law trend was present, even though my populations dropped off faster than what Zipf's law predicted.  
 
 ## [Part 2](project1_part2.md) 
-Next, I was interested in looking at accessibility as determined by roads and healthcare. 
+Next, I was interested in looking at accessibility as determined by roads and healthcare. I had the following types of highways in Pigg's Peak: primary, secondary, unclassified, tertiary, residential, track, service, and path. I decided to classify the roads into 3 levels. The first level corresponding the largest roads included primary and secondary roads. The second level included unclassified and tertiary roads. Lastly, the smallest roads included residential and path roads in level three. Examining the plotted road networks, it makes sense that large roads go through larger settlements and connect the de facto settlements. Then smaller roads branch off and connect to the more rural parts.
+
+After examining road data, I turned my attention to healthcare data. There are two hospitals right next to each other in the center of the largest de facto settlement. This makes sense that the hospitals would be placed to reach the most people. What I do not understand is why there are two right next to each other. I predict that these two hospitals are affiliated hence their proximity.  
 
 ## [Part 3](project1_part3.md)  
+In the last part of the project, I added in topographic data. 
