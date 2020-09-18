@@ -30,7 +30,7 @@ When we add a pre-trained model, we have to follow these steps to conform the mo
  - If your dataset is similar, freeze some layers (i.e. don’t allow these weights to be adjusted) and unfreeze others.
  - If your dataset is small or the pre-trained model solves a very similar problem to your freeze all the layers.
 
-![Freezing](images/Screen Shot 2020-09-18 at 12.08.41 PM.png)
+![Freezing](images/frozen_levels.png)
 
 ### Freezing
 But what is freezing? A CNN is made up on many layers with many attached weights that determine how our image is interpreted. We want the best weights that give us the most accurate model of our dataset without overfitting. Therefore, we have to make choices of how much of the pretrained model we decide to use. 
