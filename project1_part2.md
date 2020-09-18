@@ -22,7 +22,7 @@ Looking at the data, we see that roads are classified as different types of high
 - Residential
 - Track
 - Service
-- Path
+- Path   
 Information about highway classification can be found [here](https://wiki.openstreetmap.org/wiki/Key:highway).
 
 I decided to separate my roads into three groups as seen in this code snippet:
