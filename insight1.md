@@ -99,8 +99,8 @@ In LMICs, accurate settlement and household data is uncommon mostly because it i
 ![India CNN](images/india_from_space_2012.jpeg)
 
 ## References
-1. https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29
-2. https://towardsdatascience.com/an-approach-to-tracking-human-development-through-satellite-imagery-in-india-7e750b85dc90
-3. https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751
-4. https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5
-5. https://keras.io/api/applications/
+1. [https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29](https://towardsdatascience.com/step-by-step-guide-to-using-pretrained-models-in-keras-c9097b647b29)
+2. [https://towardsdatascience.com/an-approach-to-tracking-human-development-through-satellite-imagery-in-india-7e750b85dc90](https://towardsdatascience.com/an-approach-to-tracking-human-development-through-satellite-imagery-in-india-7e750b85dc90)
+3. [https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751](https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751)
+4. [https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5](https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5)
+5. [https://keras.io/api/applications/](https://keras.io/api/applications/)
