@@ -15,7 +15,11 @@ work regarding human development.
 
 ## The data
 I then downloaded the stata datasets for Individual recode and Household recode, and read them into R using `Haven`. The household data has 4293 variables and the individual 4217 variables. Here are some notable variables from the household data:
-- hv009: number of household members
-- 
-- 
+- `hv009`: number of household members
+- `hv104_01` to `hv104_34`: sex of household members
+- `hv105_01` to `hv105_34`: age of household members
+- `hv024`: adm1 labels and data
+
+
+
 
