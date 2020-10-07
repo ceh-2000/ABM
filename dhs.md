@@ -29,7 +29,7 @@ With these variables in mind, I created a new data fram called `dhs_vars` that i
 ![lubombo rpoint]("images/lubombo_rpoint.png")
 ![shiselweni rpoint]("images/shiselweni_rpoint.png")
 ![swaziland households]("images/eswatini_households.png")
-
+![Roads](images/roads.png)
 
 
 
