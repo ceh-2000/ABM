@@ -21,7 +21,6 @@ I then downloaded the stata datasets for Individual recode and Household recode,
 - `hv024`: adm1 labels and data
 
 With these variables in mind, I created a new data fram called `dhs_vars` that is a subset of the columns of `dhs_household` with the following command:
-```dhs_vars <- dhs_household %>% dplyr::select(hv005, hv009, hv024, hv104_01:hv104_34, hv105_01:hv105_34)```
 
 ![eswatini rpoint](images/swz_random_points.png)
 ![hhohho rpoint](images/hhohho_rpoint.png)
