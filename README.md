@@ -9,3 +9,5 @@
 5. [Data Science Insight I](insight1.md)
 7. [Data Science Insight II](data_insight_2.nb.html)
 8. [DHS Data Report](DHS_Eswatini_writeup.html)
+9. [Data Science Insight III](insight3.nb.html)
+
