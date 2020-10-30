@@ -7,7 +7,7 @@
 3. [Assignment 3: Creating Plots with Population Data of Swaziland](PopulationDataSwaziland.md)
 4. [Project 1: Pigg's Peak](project1summary.md)
 5. [Data Science Insight I](insight1.md)
-7. [Data Science Insight II](data_insight_2.nb.html)
-8. [DHS Data Report](DHS_Eswatini_writeup.html)
-9. [Data Science Insight III](insight3.nb.html)
+6. [Data Science Insight II](data_insight_2.nb.html)
+7. [DHS Data Report](DHS_Eswatini_writeup.html)
+8. [Data Science Insight III](insight3.nb.html)
 
