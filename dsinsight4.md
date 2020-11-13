@@ -29,5 +29,5 @@ We have closed the loop and shown how other fields can affect data science which
 
 In the same sense that revolutions in measurement contribute to revolutions in science, advancements in data science are preceded by advancements and heightened understanding in other fields. Going one step further, the study of data science can likewise impact other fields, like with policy decisions made based on an agent-based model. It is important to recognize the power of more easily accessible modeling tools and of course the responsibility that comes with it. 
 
-Sources: 
+Sources:     
 https://www.bernardmarr.com/default.asp?contentID=697
